@@ -13,7 +13,7 @@
             <h2>Create Your Account</h2>
             <p class="required">* Required information</p>
         </header>
-        <section>
+        <section class="first-sec">
             <h3>Basic Information</h3>
             <form>
                <div class="info">
@@ -68,7 +68,86 @@
                </div>
             </form>
         </section>
-        
+        <section>
+            <h3>Education</h3>
+            <form>
+               <div class="info">
+               <label><small>School </small><span class="red">*</span></label>
+               <input type="text">
+               </div>
+               <div class="info">
+               <label><small>Program </small><span class="red">*</span></label>
+               <input type="text">
+               </div>
+               <div class="info">
+               <label><small>Education level </small><span class="red">*</span></label>
+               <select>
+                <option value="">Select</option>
+                <option>level 1</option>
+                <option>level 2</option>
+                <option>level 3</option>
+                <option>level 4</option>
+                <option>level 5</option>
+               </select>
+               </div>
+               <div class="info">
+                <fieldset class="status-box">
+                    <legend>Education Status</legend>
+                    <div>
+                        <input type="radio" name="status" id="g1">
+                        <label for="g1"><small>Graduated</small></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="status" id="g2">
+                        <label for="g2"><small>Current Enrolled</small></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="status" id="g3">
+                        <label for="g3"><small>Did Not Graduate</small></label>
+                    </div>
+                </fieldset>
+               </div>
+               <div class="info">
+               <label><small>Graduation Date </small><span class="red">*</span></label>
+               <input type="text">
+               </div>
+            </form>
+        </section>
+         <section>
+            <h3>Work Experience</h3>
+            <form>
+               <div class="info">
+               <label class="work"><small>Employer:</small></label>
+               <input type="text">
+               </div>
+               <div class="info">
+               <label class="work"><small>Job Title:</small></label>
+               <input type="text">
+               </div>
+               <div class="info">
+               <label class="job" class="work"><small>Job Duty:</small></label>
+               <textarea> </textarea>
+               </div>
+               <div class="info">
+               <label class="work"><small>Worked Year:</small></label>
+               <input type="number">
+               </div>
+            </form>
+        </section>
+        </section>
+         <section>
+            <h3>Attachments</h3>
+            <form>
+               <div class="info" class="last">
+               <label><small>Attachments:</small></label>
+               <input type="file">
+               </div>
+            </form>
+        </section>
+        <footer>
+            <button>Reset</button>
+            <button>Apply</button>
+        </footer>
 
     </div>
 </body>
