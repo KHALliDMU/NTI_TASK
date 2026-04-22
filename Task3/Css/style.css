@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+    --main-color: #3563E9;
+    --secondary-color:#596780;
+    --secondarycolor:#E0E9F4;
+    --primary-color:#1A202C;
+    --border:#C3D4E966 solid 1px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container{
+    width:92%;
+    padding: 2% 4% 4%;
+    background-color:#F6F7F9;
+}
+nav{
+    height: 124px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: var(--border);
+}
+nav .logo h1{
+    color: var(--main-color);
+    width: 148px;
+    height: 44px;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -3%;
+}
+.logo{
+     width: 10%;
+}
+.search{
+     width: 60%;
+}
+.search button{
+    width: 492px;
+    height: 44px;
+    background-color: white;
+    border-radius: 70px;
+    border: var(--border);
+}
+.search p{
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    color: var(--secondary-color);
+    padding-right: 200px;
+}
+.search button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons *{
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border: none;
+}
+.icons img{
+    border-radius: 50%;
+}
+.white-text{
+    color: white;
+}
+.ads{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ads .sizing{
+    box-sizing: border-box;
+    padding: 1.5%;
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+}
+.ads .ad-1 {
+    width: 49%;
+    background-color: #54A6FF;
+    background-image: url(../Images/ad1.png);
+}
+.ads .ad-2 {
+     width: 49%;
+    background-color: #3563E9;
+    background-image: url(../Images/ad2.png);
+}
+.ads h3{
+    width: 272px;
+    height: 96px;
+    font-weight: 600px;
+    font-size: 32px;
+    list-style: 150%;
+    letter-spacing: -3%;
+}
+.ads p{
+    width: 284px;
+    height: 48px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+}
+.ads .button-sizing{
+    width: 120px;
+    height: 44px;
+    border-radius: 4px;
+    
+    border: none;
+    pad: 20px;
+    font-weight: 600px;
+    font-size: 16px;
+    list-style: 150%;
+    letter-spacing: -2%;
+}
+.ads .ad-1 button{
+    background-color: var(--main-color);
+}
+.ads .ad-2 button{
+    background-color: #54A6FF;
+}
+.title{
+    padding-bottom: 16px;
+}
+.pick-up ,.drop-off{
+    width: 45%;
+    height: 132px;
+    background-color: white;
+    border-radius: 10px;
+}
+ .rent  .ico{
+    height: 20px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    padding-left: 5%;
+}
+.rent .drop-width{
+    width: 104px;
+}
+.rent .pick-width{
+    width: 92px;
+}
+.ico .pick ,.ico .drop{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    color: var(--primary-color);
+}
+  .rent form{
+    padding-top: 8px;
+}
+  .rent form p { 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -5%;
+    color: var(--primary-color);
+}
+.rent form select{
+     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color:#E0E9F4;
+}
+.rent form div div{
+     padding-top: 8px;
+     width: 126px;
+     height: 20px;
+     display: flex;
+     justify-content: space-between;
+}
+.rent .data{
+    padding-left: 5%;
+    padding-right:5% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.line{
+    height:48px;
+    border: var(--border);
+}
+.switch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    border: none;
+}
+.switch *{
+    border: none;
+    background-color: var(--main-color);
+}
+.rent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+.categories{
+    padding-top: 3%;
+}
+.popular{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popular-rent .popular p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.popular-rent .popular .popular-car p{
+    color: var(--secondarycolor);
+}
+.popular-rent .popular .view-all p{
+    color: var(--main-color);
+}
+.popular-rent .popular .popular-car,.view-all{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
